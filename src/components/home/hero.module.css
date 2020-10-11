@@ -1,9 +1,10 @@
 .wrapper{
-  min-height: calc(100vh - 75px);
+  min-height: calc(100vh - var(--l-hdr-height));
   display:flex;
   align-items:center;
 }
 .title{
-    font-weight:var(--fw-light);
-    font-size: var(--fs-title);
+  font-weight:var(--fw-light);
+  font-size: var(--fs-title);
+  padding-bottom:var(--l-hdr-height);
 }

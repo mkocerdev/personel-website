@@ -9,7 +9,7 @@ const Layout = () => {
           <h1 className={styles.title}>
             Hello{" "}
             <span role="img" aria-label="hello">
-              👋🏻
+              👋
             </span>
             , I’m mehmet,
             <br /> a <strong> frontend developer</strong> <br /> at
