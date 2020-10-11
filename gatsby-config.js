@@ -14,6 +14,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/data/photos`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Mehmet Kocer`,
@@ -23,13 +30,6 @@ module.exports = {
         theme_color: `#F1FFF2`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `posts`,
-        path: `${__dirname}/src/data/posts/`,
       },
     },
     `gatsby-transformer-sharp`,
