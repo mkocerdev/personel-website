@@ -1,0 +1,9 @@
+.wrapper{
+  min-height: calc(100vh - 75px);
+  display:flex;
+  align-items:center;
+}
+.title{
+    font-weight:var(--fw-light);
+    font-size: var(--fs-title);
+}

@@ -1,0 +1,31 @@
+.wrapper{
+    height:75px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    float:left;
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    position:relative;
+    overflow:hidden;
+}
+.logo img{   
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+.nav{
+    float:right;
+}
+.link{
+    padding-right:var(--gap);
+    font-weight:var(--fw-light);
+    &:last-child{
+        padding-right:0px
+    }
+}
