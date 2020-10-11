@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+
 import styles from "./header.module.css";
 
 const MENU = [
@@ -16,7 +17,7 @@ const Header = () => (
       <div className={styles.wrapper}>
         <div className={styles.logo}>
           <Link to="/">
-            <img src={"/avatar.jpeg"} alt="avatar" />
+            <img src={"/avatar.svg"} alt="avatar" />
           </Link>
         </div>
         <nav className={styles.nav}>

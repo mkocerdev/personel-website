@@ -1,13 +1,13 @@
 .wrapper{
-    height:75px;    
+    height:var(--l-hdr-height);    
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo{
     float:left;
-    width:35px;
-    height:35px;
+    width:45px;
+    height:45px;
     border-radius:50%;
     position:relative;
     overflow:hidden;
