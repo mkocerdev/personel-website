@@ -1,21 +1,23 @@
 :root {
-  --c-theme: #f1fff2;
-  --c-highlight: #1559d8;
-  --c-default: rgba(0, 0, 0, 0.9);
-  --c-default-light: rgba(0, 0, 0, 0.5);
-  --c-default-hide: rgba(0, 0, 0, 0.12);
-  --c-default-smoke: rgba(0, 0, 0, 0.05);
+  --c-theme: rgb(181 208 244);
+  --c-theme-light: rgb(146 174 212);
+  --c-highlight: rgb(21 89 216);
+  --c-default: rgb(40 55 74);
+  --c-default-light: rgb(40 55 74 / 50%);
+  --c-default-hide: rgb(40 55 74 / 12%);
+  --c-default-smoke: rgb(40 55 74 / 6%);
 
   --ff-sans: 'Inter', sans-serif;
   --ff-serif: 'Tiempos', serif;
 
   --fw-light: 300;
-  --fw-normal: 400;
-  --fw-bold: 500;
+  --fw-regular: 400;
+  --fw-meduim: 500;
+  --fw-bold: 600;
 
   --fs-base: 16px;
-  --fs-small: 0.92rem;
-  --fs-body: 1rem;
+  --fs-small: 0.72rem;
+  --fs-body: 0.9rem;
   --fs-title: 2rem;
 
   --lh-body: 1.46;
@@ -23,7 +25,9 @@
   --gap: 24px;
   --finger: 46px;
 
-  --l-hdr-height:75px
+  --l-hdr-height: 75px;
+
+  --b-radius: 7px;
 }
 
 @media (--t) {
@@ -35,11 +39,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --c-theme: #172123;
-    --c-highlight: #42ffcc;
-    --c-default: rgba(255, 255, 255, 0.96);
-    --c-default-light: rgba(180, 180, 200, 0.65);
-    --c-default-hide: rgba(180, 180, 200, 0.12);
-    --c-default-smoke: rgba(180, 180, 200, 0.1);
+    --c-theme: rgb(23 27 35);
+    --c-theme-light: rgb(31 37 47);
+    --c-highlight: rgb(66 255 204);
+    --c-default: rgb(201 222 255);
+    --c-default-light: rgb(201 222 255 / 65%);
+    --c-default-hide: rgb(201 222 255 / 12%);
+    --c-default-smoke: rgb(201 222 255 / 1%);
   }
 }

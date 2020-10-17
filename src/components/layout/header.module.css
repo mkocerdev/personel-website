@@ -24,7 +24,7 @@
 }
 .link{
     padding-right:var(--gap);
-    font-weight:var(--fw-light);
+    font-weight:var(--fw-regular);
     &:last-child{
         padding-right:0px
     }
