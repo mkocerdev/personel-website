@@ -1,19 +1,19 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Img from "gatsby-image";
 
-import Layout from "../components/layout/layout";
-import SEO from "../components/layout/seo";
+import { Layout, SEO, PhotoList, PhotoBox } from "../components";
 
-const IndexPage = ({ data }) => (
+const PhotosPage = ({ data: { Photos } }) => (
   <Layout>
     <SEO title="Photos" />
     <div className="container">
       <h1>Photos</h1>
       <div className="photos">
-        {data.allFile.edges.map(({ node }) => {
-          return <Img key={node.id} fluid={node.childImageSharp.fluid} />;
-        })}
+        <PhotoList column="2">
+          {Photos.edges.map(({ node }) => {
+            return <PhotoBox key={node.id} {...node}></PhotoBox>;
+          })}
+        </PhotoList>
       </div>
     </div>
   </Layout>
@@ -21,11 +21,16 @@ const IndexPage = ({ data }) => (
 
 export const pageQuery = graphql`
   {
-    allFile(filter: { absolutePath: { regex: "//photos//" } }, limit: 30) {
+    Photos: allFile(
+      filter: { absolutePath: { regex: "//photos//" } }
+      limit: 30
+    ) {
       edges {
         node {
           id
-          childImageSharp {
+          name
+          birthTime(formatString: "DD MMMM YYYY MM:SS", locale: "en")
+          img: childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
             }
@@ -35,4 +40,4 @@ export const pageQuery = graphql`
     }
   }
 `;
-export default IndexPage;
+export default PhotosPage;
