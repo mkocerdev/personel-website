@@ -29,7 +29,7 @@ export const pageQuery = graphql`
         node {
           id
           name
-          birthTime(formatString: "DD MMMM YYYY MM:SS", locale: "en")
+          birthTime(formatString: "MMMM DD YYYY MM:SS", locale: "en")
           img: childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
