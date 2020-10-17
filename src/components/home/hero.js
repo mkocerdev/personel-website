@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./hero.module.css";
 
-const Layout = () => {
+const Hero = () => {
   return (
     <section className="hero">
       <div className="container">
@@ -20,4 +20,4 @@ const Layout = () => {
     </section>
   );
 };
-export default Layout;
+export default Hero;
