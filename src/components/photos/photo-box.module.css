@@ -7,19 +7,21 @@
     box-shadow: 1px 3px 10px 3px var(--c-default-smoke);
 }
 .photo{
-    max-height: 450px;
+    max-height: 550px;
 }
 .figcaption{
-    color: #fff;
     font-weight: bold;
-    background:var(--c-theme-light);
     padding:var(--gap);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .title{
     font-size:var(--fs-body);
-    color:var(--c-default);
+    color:#fff;
 }
 .date{
     font-size:var(--fs-small);
-    color:var(--c-default-light);
+    color:var(--c-gray-3);
 }

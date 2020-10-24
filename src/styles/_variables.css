@@ -1,11 +1,24 @@
 :root {
-  --c-theme: rgb(181 208 244);
+  --c-theme: rgb(236 226 217);
   --c-theme-light: rgb(146 174 212);
   --c-highlight: rgb(21 89 216);
   --c-default: rgb(40 55 74);
   --c-default-light: rgb(40 55 74 / 50%);
   --c-default-hide: rgb(40 55 74 / 12%);
   --c-default-smoke: rgb(40 55 74 / 6%);
+
+  --c-white:rgb(255 255 255);
+  --c-black: #1b1f23;
+  --c-gray-0: #fafbfc;
+  --c-gray-1: #f6f8fa;
+  --c-gray-2: #e1e4e8;
+  --c-gray-3: #d1d5da;
+  --c-gray-4: #959da5;
+  --c-gray-5: #6a737d;
+  --c-gray-6: #586069;
+  --c-gray-7: #444d56;
+  --c-gray-8: #2f363d;
+  --c-gray-9: #24292e;
 
   --ff-sans: 'Inter', sans-serif;
   --ff-serif: 'Tiempos', serif;
