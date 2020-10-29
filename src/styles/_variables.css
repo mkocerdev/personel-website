@@ -1,63 +1,63 @@
 :root {
-  --c-theme: rgb(236 226 217);
-  --c-theme-light: rgb(146 174 212);
-  --c-highlight: rgb(21 89 216);
-  --c-default: rgb(40 55 74);
-  --c-default-light: rgb(40 55 74 / 50%);
-  --c-default-hide: rgb(40 55 74 / 12%);
-  --c-default-smoke: rgb(40 55 74 / 6%);
+	--c-theme: rgb(255 255 255);
+	--c-theme-light: rgb(247 247 247);
+	--c-highlight: rgb(21 89 216);
+	--c-default: rgb(0 0 0);
+	--c-default-light: rgb(0 0 0 / 50%);
+	--c-default-hide: rgb(0 0 0 / 12%);
+	--c-default-smoke: rgb(0 0 0 / 6%);
 
-  --c-white:rgb(255 255 255);
-  --c-black: #1b1f23;
-  --c-gray-0: #fafbfc;
-  --c-gray-1: #f6f8fa;
-  --c-gray-2: #e1e4e8;
-  --c-gray-3: #d1d5da;
-  --c-gray-4: #959da5;
-  --c-gray-5: #6a737d;
-  --c-gray-6: #586069;
-  --c-gray-7: #444d56;
-  --c-gray-8: #2f363d;
-  --c-gray-9: #24292e;
+	--c-white: rgb(255 255 255);
+	--c-black: #1b1f23;
+	--c-gray-0: #fafbfc;
+	--c-gray-1: #f6f8fa;
+	--c-gray-2: #e1e4e8;
+	--c-gray-3: #d1d5da;
+	--c-gray-4: #959da5;
+	--c-gray-5: #6a737d;
+	--c-gray-6: #586069;
+	--c-gray-7: #444d56;
+	--c-gray-8: #2f363d;
+	--c-gray-9: #24292e;
 
-  --ff-sans: 'Inter', sans-serif;
-  --ff-serif: 'Tiempos', serif;
+	--ff-sans: 'Inter', sans-serif;
+	--ff-serif: 'Tiempos', serif;
 
-  --fw-light: 300;
-  --fw-regular: 400;
-  --fw-meduim: 500;
-  --fw-bold: 600;
+	--fw-light: 300;
+	--fw-regular: 400;
+	--fw-meduim: 500;
+	--fw-bold: 600;
 
-  --fs-base: 16px;
-  --fs-small: 0.72rem;
-  --fs-body: 0.9rem;
-  --fs-title: 2rem;
+	--fs-base: 16px;
+	--fs-small: 0.72rem;
+	--fs-body: 0.9rem;
+	--fs-title: 2rem;
 
-  --lh-body: 1.46;
+	--lh-body: 1.46;
 
-  --gap: 24px;
-  --finger: 46px;
+	--gap: 24px;
+	--finger: 46px;
 
-  --l-hdr-height: 75px;
+	--l-hdr-height: 75px;
 
-  --b-radius: 7px;
+	--b-radius: 7px;
 }
 
 @media (--t) {
-  :root {
-    --fs-base: 18px;
-    --gap: 32px;
-  }
+	:root {
+		--fs-base: 18px;
+		--gap: 32px;
+	}
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --c-theme: rgb(23 27 35);
-    --c-theme-light: rgb(31 37 47);
-    --c-highlight: rgb(66 255 204);
-    --c-default: rgb(201 222 255);
-    --c-default-light: rgb(201 222 255 / 65%);
-    --c-default-hide: rgb(201 222 255 / 12%);
-    --c-default-smoke: rgb(201 222 255 / 1%);
-  }
+	:root {
+		--c-theme: rgb(0 0 0);
+		--c-theme-light: rgb(24 24 25);
+		--c-highlight: rgb(35 255 143);
+		--c-default: rgb(255 255 255);
+		--c-default-light: rgb(255 255 255 / 65%);
+		--c-default-hide: rgb(255 255 255 / 12%);
+		--c-default-smoke: rgb(255 255 255 / 1%);
+	}
 }
