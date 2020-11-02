@@ -1,5 +1,5 @@
 .wrapper{
-    height:var(--l-hdr-height);    
+    height:var(--l-header-height);    
     display: flex;
     align-items: center;
     justify-content: space-between;
