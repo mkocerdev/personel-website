@@ -2,4 +2,5 @@
     display: block;
     gap: var(--gap);
     columns:3;
+    margin-bottom: var(--gap);
 }
