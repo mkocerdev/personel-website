@@ -6,7 +6,7 @@
 .title {
 	font-weight: var(--fw-light);
 	font-size: var(--fs-title);
-	padding-bottom: var(--l-hdr-height);
+	padding-bottom: var(--l-hdr-height); 
 }
 .highlight {
 	background-color: var(--c-highlight);
