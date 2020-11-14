@@ -1,6 +1,6 @@
-.list{
-    display: block;
-    gap: var(--gap);
-    columns:3;
-    margin-bottom: var(--gap);
+.list {
+	display: block;
+	gap: var(--gap);
+	columns: 3 250px;
+	margin-bottom: var(--gap);
 }
