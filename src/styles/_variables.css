@@ -38,7 +38,8 @@
 	--gap: 24px;
 	--finger: 46px;
 
-	--l-hdr-height: 75px;
+	--l-header-height: 75px;
+	--l-footer-height: 90px;
 
 	--b-radius: 7px;
 }

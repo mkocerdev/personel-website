@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--l-footer-height);
+}
+.made{
+    float: right;
+    font-size: var(--fs-body);
+    color: var(--c-default);
+	font-weight: var(--fw-light);
+}
+.author{
+	font-weight: var(--fw-bold);
+}
+.socialmedia{
+    float:left;
+}
+.icon{        
+    fill: var(--c-default);
+    margin-right: var(--gap);    
+    stroke: none;
+}
