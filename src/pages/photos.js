@@ -21,7 +21,9 @@ const PhotosPage = ({ data: { Photos } }) => (
 
 export const pageQuery = graphql`
   {
-    Photos: allMarkdownRemark {
+    Photos: allMarkdownRemark(
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
       nodes {
         frontmatter {
           title
