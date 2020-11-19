@@ -27,7 +27,7 @@ export const pageQuery = graphql`
       nodes {
         frontmatter {
           title
-          date
+          date(formatString: "DD MMMM YYYY")
           photo {
             childImageSharp {
               fluid {

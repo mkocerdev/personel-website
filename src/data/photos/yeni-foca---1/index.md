@@ -1,5 +1,5 @@
 ---
 title: Yeni Foça - 1
-date: 28 June 2020 09:49
+date: 2020-06-28
 photo: IMG_3859.jpeg
 ---

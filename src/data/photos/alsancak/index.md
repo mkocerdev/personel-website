@@ -1,5 +1,5 @@
 ---
 title: Alsancak
-date: 19 June 2019 20:47
+date: 2019-06-19
 photo: IMG_2104.jpeg
 ---

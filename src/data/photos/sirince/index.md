@@ -1,5 +1,5 @@
 ---
 title: Şirince
-date: 13 August 2019 15:16
+date: 2019-08-13
 photo: IMG_2401.jpeg
 ---
