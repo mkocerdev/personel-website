@@ -29,7 +29,7 @@ module.exports = {
         background_color: `#F1FFF2`,
         theme_color: `#F1FFF2`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/mkocer-favicon.png`,
       },
     },
     `gatsby-transformer-sharp`,
