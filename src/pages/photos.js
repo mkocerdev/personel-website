@@ -23,6 +23,7 @@ export const pageQuery = graphql`
   {
     Photos: allMarkdownRemark(
       sort: { fields: frontmatter___date, order: DESC }
+      filter: { fileAbsolutePath: { regex: "/(photos)/" } }
     ) {
       nodes {
         frontmatter {

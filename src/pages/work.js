@@ -4,7 +4,10 @@ import { Layout, SEO } from "../components";
 
 const WorkPage = () => (
   <Layout>
-    <SEO title="Work" />
+    <SEO title="Works" />
+    <div className="container">
+      <h1>Works</h1>
+    </div>
   </Layout>
 );
 
