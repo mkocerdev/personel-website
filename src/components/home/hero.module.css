@@ -12,20 +12,3 @@
 	cursor: pointer;
 	position: relative;
 }
-.highlight:before {
-	content: '';
-	position: absolute;
-	margin: auto;
-	bottom: 8%;
-	left: 0;
-	background: var(--c-highlight);
-	opacity: 0.8;
-	width: 0;
-	height: 30%;
-	z-index: -1;
-	display: block;
-	transition: all 0.5s cubic-bezier(0.71, 0.01, 0.32, 1.01);
-}
-.highlight:hover:before {
-	width: 75%;
-}
